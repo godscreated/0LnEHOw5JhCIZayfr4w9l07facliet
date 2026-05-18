@@ -56,7 +56,7 @@ foreach ($blockedCIDRs as $cidr) {
 
 // === JavaScript Challenge ===
 if (!isset($_COOKIE['js_challenge_passed'])) {
-    echo "<script>document.cookie='js_challenge_passed=true; path=/';location.reload();</script>";
+    echo "";
     exit;
 }
 ?>
